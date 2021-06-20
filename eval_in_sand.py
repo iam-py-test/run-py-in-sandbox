@@ -1,3 +1,7 @@
 import ref
 ref.main(__builtins__)
-eval(open("runme").read())
+eval("import os")
+try:
+  os.system("echo 1111")
+except:
+  pass
