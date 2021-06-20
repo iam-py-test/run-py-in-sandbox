@@ -15,4 +15,4 @@ jobs:
         pip install restricted-functions
     - name: Test
       run: |
-        echo print('1') | python eval_in_sand.py
+         python eval_in_sand.py
